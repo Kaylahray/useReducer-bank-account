@@ -1,0 +1,82 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 5rem auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.active {
+  background-color: #b5e8b5;
+}
+
+h1 {
+  text-align: center;
+}
+p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+button {
+  width: calc(
+    100% - 20px
+  ); /* Adjust width to account for border and padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 2px solid transparent; /* Add transparent border */
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+button:disabled {
+  background-color: #212529;
+}
+.btn-open {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.btn-deposit {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn-withdraw {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.btn-loan {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.btn-pay-loan {
+  background-color: #17a2b8;
+  color: #fff;
+}
+
+.btn-close {
+  background-color: #6c757d;
+  color: #fff;
+}
